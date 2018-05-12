@@ -10,14 +10,16 @@ Startup="(None)"
 HelpFile=""
 Title="VBMThread11"
 ExeName32="VBMThread11.DLL"
+Path32="Bin"
 Command32=""
 Name="VBMThread11"
 HelpContextID="0"
 Description="VB Multithread Library 1.1"
 CompatibleMode="0"
+CompatibleEXE32="Bin\VBMThread11.DLL"
 MajorVer=1
 MinorVer=1
-RevisionVer=1
+RevisionVer=2
 AutoIncrementVer=0
 ServerSupportFiles=0
 CompilationType=0
@@ -37,3 +39,6 @@ ThreadPerObject=0
 MaxNumberOfThreads=1
 ThreadingModel=1
 DebugStartupOption=0
+
+[VBCompiler]
+LinkSwitches=/OPT:NOWIN98
